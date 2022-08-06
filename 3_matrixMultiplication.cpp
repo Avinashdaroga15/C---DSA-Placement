@@ -11,10 +11,12 @@ void multiplication(int arr1[][2], int row1, int col1, int arr2[][2], int row2, 
       // Traverse second array columns
       for (int y = 0; y < col2; y++) {
         // Traverse first array columns and second array rows
+        int sum=0;
         for (int z = 0; z < col1; z++) {
           // Multiplication
-          result[x][y] = result[x][y] + arr1[x][z] * arr2[z][y];
+         sum = sum + arr1[x][z]*arr2[z][y];
         }
+        result[x][y] = sum;
       }
     }
   }
