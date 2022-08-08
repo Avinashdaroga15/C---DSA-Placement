@@ -27,12 +27,8 @@ int main(){
         if (amount/note>0)
         {
             noteNum = amount/note;
-            if (note==1)
-            {
-                 amount/=10;
-            }else
-             amount%=note;
             cout<<"Number of notes of "<<note<<"th note is "<<noteNum<<endl;
+            amount%=note;
         }
         
     }
