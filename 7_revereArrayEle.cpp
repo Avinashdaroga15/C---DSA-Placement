@@ -20,7 +20,7 @@ void printArr(int *arr,int size){
     cout<<endl;
 }
 int main(){
-    int arr[8] = {2,-1,4,6,8,5,7,9};
+    
     int arr1[7] = {2,-1,4,6,8,5,7};
     int size = 7;
     cout<<"Array before reverse operation"<<endl;
