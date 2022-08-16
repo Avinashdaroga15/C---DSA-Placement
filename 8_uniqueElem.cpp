@@ -17,7 +17,7 @@ void uniqueElement(int *arr,int size){
   //     }
   //   }
   // }
-//logic 2 better logic
+//logic 2 better logic using XOR bistwise operator
   int ans =0; 
     for(int i=0;i<size;i++){
         ans = ans^arr[i];
